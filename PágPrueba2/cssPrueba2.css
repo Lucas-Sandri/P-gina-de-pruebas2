@@ -11,7 +11,7 @@ body{
     background-size: cover;     */
 }
 .imagen-icono{
-    background-image: url(../IMG/imagen\ de\ codigos\ de\ programación.jpg);
+    background-image: url(IMG/imagen\ de\ codigos\ de\ programación.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 30vw;
@@ -21,6 +21,11 @@ body{
 .imagen-icono div{
     display: flex;
     justify-content: center;
+}
+.imagen-icono div img{
+    background-color: #0000006b;
+    border-radius: 2%;
+    padding:3% 25% 3% 25%;
 }
 
 .my-icon{
