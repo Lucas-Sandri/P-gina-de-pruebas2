@@ -1,26 +1,29 @@
 *{
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS' ;
+   
 }
 body{
     display: flex;
     align-items: center;
     margin: 0% 10% 0% 0%;
     justify-content: space-between;
-    /* background-image: url(../IMG/fondo\ de\ miel.png);
-    background-repeat: no-repeat;
-    background-size: cover;     */
+    
 }
 .imagen-icono{
     background-image: url(IMG/imagen\ de\ codigos\ de\ programación.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 30vw;
-    height: 110vh;
+    height: 100vh;
     aspect-ratio: auto;
+}
+.text-introduction{
+    margin-top: 0;
 }
 .imagen-icono div{
     display: flex;
     justify-content: center;
+    margin-top: 40vh;
 }
 .imagen-icono div img{
     background-color: #0000006b;
@@ -29,7 +32,6 @@ body{
 }
 
 .my-icon{
-    margin-top: 6em;
     width: 50%;
 }
   
@@ -47,12 +49,12 @@ fieldset{
     grid-gap: 10px;
 }
 input{
-    
     width:90%;
 }
 
 fieldset div label{
    display: block;
+   font-size: 70%;
    
  }
  
@@ -79,4 +81,16 @@ button{
 }
 button:active{
     transform: scale(1.1);
+}
+@media (max-width:700px){
+label{
+    font-size: 70%;
+    font-weight: 900;
+}
+.imagen-icono div{
+    background-color: aqua;
+}
+.imagen-icono{
+    height: 120vh;
+}
 }
