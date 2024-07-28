@@ -3,60 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica2</title>
-    <link rel="stylesheet" href="cssPrueba2.css">
+    <title>Proyecto: Dashboard</title>
+    <link rel="stylesheet" href="index-css.css">
 </head>
 <body>
-
-  <div class="imagen-icono">
-    <div>
-      <img class="my-icon" src="IMG/Mi icono SLL 1.0.png" alt="">
-    </div>
-  </div>
-<form action="sdsd" method="post">
-  <h3 class="text-introduction">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up now to get started.
-  </h3>
-  <h3>You know you want to.</h3>
-  <hr>
-  <h3>Let's do this!</h3>
-<fieldset>
-    <div>
-      <label for="first_name">First Name</label>
-      <input t       ype="text" id="first_name" name="first_name">
-    </div>
-  
-    <div>
-      <label for="last_name">Last Name</label>
-      <input type="text" id="last_name" name="last_name">
-    </div>
+<div class="container">
+    <nav>
+        <div class="container_logo-titulo">
+            <img src="IMG/icons8-diseño-del-tablero-24.png" alt="icons8-diseño-del-tablero-24"><h2>Dashboard</h2>
+        </div>
     
-    <div>
-      <label for="gmail">Gmail</label>
-      <input type="email" name="Gmail" id="gmail">
-    </div>
+        <ul>
+            <li><img src="IMG/icons8-casa-24.png" alt="icons8-casa-24"><a href="">Home</a></li>
+            <li><img src="IMG/icons8-usuario-24.png" alt="icons8-usuario-24"><a href="">Profile</a></li>
+            <li><img src="IMG/message.svg" alt=""><a href="message">Messages</a></li>
+            <li><img src="IMG/clock-time-four.svg" alt="clock-time-four"><a href="">History</a></li>
+            <li><img src="IMG/file-document-multiple.svg" alt="file-document-multiple"><a href="">Tasks</a></li>
+            <li><img src="IMG/account-group.svg" alt="account-group"><a href="">Communities</a></li>
+         <br>
+            <li><img src="IMG/setting.svg" alt="setting"><a href="">Settings</a></li>
+            <li><img src="IMG/help-box.svg" alt="help-box"><a href="">Support</a></li>
+            <li><img src="IMG/shield-check.svg" alt="shield-check"><a href="">Privacy</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="container_search_bell">
+             <div class="barra-busqueda">
+                <img class="icon-search" src="IMG/icons8-search.svg" alt="icon-search">
+                <input type="text">
+             </div>
+             <a href="">
+                <img class="icon-bell" src="IMG/bell-ring.svg" alt="icons-bell">
+             </a>
+             <a href=""><img src="IMG/Mi icono SLL 1.0.png" alt="Icono-SLL"></a>
+             <h4>Lucas Sandri</h4>
+        </div>
+        <div class="hello-the-user">
+            <div class="container_img-saludo">
+                <img src="IMG/Mi icono SLL 1.0.png" alt="Icono-SLL">
+                <div>
+                  <p>Hi there,</p>
+                  <h3>Lucas Sandri (@lucass)</h3>
+                 </div>
+            </div>
+            <button><a href="Form.html" target="_blank">New</a></button>
+            <button><a href="">Upload</a></button>
+            <button><a href="">Share</a></button>
+        </div>
+    </header>
+    <main>
+        <h4>Your Projects</h4>
+        <div class="container-section">
+            <section>
+                   <div>
+                        <h5>Super Cool Project</h5>
+                        <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                   </div>
+                   <div class="icon_section">
+                       <img src="IMG/star-plus.svg" alt="icon star plus">
+                       <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                       <img src="IMG/share-variant.svg" alt="icon share-variant">
+                   </div>
+                
+            </section>
+            <section>
+               <div>
+                    <h5>Less Cool Project</h5>
+                    <p>Nullam condimentum ipsum ut lectus vehicula
+                    consectetur. Quisque sed dolor tincidunt,
+                    consectetur sapien et, facilisis dolor. Duis sem
+                    purus, dignissim ut sapien in, varius
+                    pellentesque lacus.</p>
+               </div>
+               <div class="icon_section">
+                    <img src="IMG/star-plus.svg" alt="icon star plus">
+                    <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                    <img src="IMG/share-variant.svg" alt="icon share-variant">
+               </div>
+            </section>
+            <section>
+                <div>
+                    <h5>Impossible App</h5>
+                    <p>In hac habitasse platea dictumst. Vivamus
+                    dictum rutrum arcu, a placerat velit sagittis id.</p>
+                </div>
+                   <div class="icon_section">
+                       <img src="IMG/star-plus.svg" alt="icon star plus">
+                       <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                       <img src="IMG/share-variant.svg" alt="icon share-variant">
+                   </div>
+            </section>
+            <section>
+                    <div>
+                        <h5>Easy Peasy App</h5>
+                        <p>Etiam cursus eros ac efficitur fringilla.
+                        Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                    </div>
+                    <div class="icon_section">
+                        <img src="IMG/star-plus.svg" alt="icon star plus">
+                        <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                        <img src="IMG/share-variant.svg" alt="icon share-variant">
+                    </div>
+            </section>
+            <section>
+                <div>  
+                     <h5>Ad Blocker</h5>
+                     <p>Quisque eget rutrum nisl. Nam augue usto, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                </div>
+                <div class="icon_section">
+                     <img src="IMG/star-plus.svg" alt="icon star plus">
+                     <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                     <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5>Money Maker</h5>
+                    <p>Praesent convallis, libero quis congue
+                    elementum, nunc ante faucibus sapien, ac
+                    scelerisque tortor purus sit amet ex.
+                    Pellentesque mollis nec sem vel aliquam.</p>
+                </div>
+                <div class="icon_section">    
+                    <img src="IMG/star-plus.svg" alt="icon star plus">
+                    <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                    <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5>Money Maker</h5>
+                    <p>Praesent convallis, libero quis congue
+                    elementum, nunc ante faucibus sapien, ac
+                    scelerisque tortor purus sit amet ex.
+                    Pellentesque mollis nec sem vel aliquam.</p>
+                </div>
+                <div class="icon_section">    
+                    <img src="IMG/star-plus.svg" alt="icon star plus">
+                    <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                    <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5>Money Maker</h5>
+                    <p>Praesent convallis, libero quis congue
+                    elementum, nunc ante faucibus sapien, ac
+                    scelerisque tortor purus sit amet ex.
+                    Pellentesque mollis nec sem vel aliquam.</p>
+                </div>
+                <div class="icon_section">    
+                    <img src="IMG/star-plus.svg" alt="icon star plus">
+                    <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                    <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5>Money Maker</h5>
+                    <p>Praesent convallis, libero quis congue
+                    elementum, nunc ante faucibus sapien, ac
+                    scelerisque tortor purus sit amet ex.
+                    Pellentesque mollis nec sem vel aliquam.</p>
+                </div>
+                <div class="icon_section">    
+                    <img src="IMG/star-plus.svg" alt="icon star plus">
+                    <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                    <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+            <section>
+                <div>  
+                     <h5>Ad Blocker</h5>
+                     <p>Quisque eget rutrum nisl. Nam augue usto, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                </div>
+                <div class="icon_section">
+                     <img src="IMG/star-plus.svg" alt="icon star plus">
+                     <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                     <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+            <section>
+                <div>  
+                     <h5>Ad Blocker</h5>
+                     <p>Quisque eget rutrum nisl. Nam augue usto, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                </div>
+                <div class="icon_section">
+                     <img src="IMG/star-plus.svg" alt="icon star plus">
+                     <img src="IMG/eye-plus.svg" alt="icon eye plus">
+                     <img src="IMG/share-variant.svg" alt="icon share-variant">
+                </div>
+            </section>
+        </div>
+    </main>
+    <aside>
+        <h4>Announcements</h4>
+        <article>
+            <div>
+                <h5>Site Maintenance</h5>
+                <p class="p_announcements">Vestibulum condimentum tellus lacus,in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+            </div>
+            <hr>
+            <div>
+                <h5>Community Share Day</h5>
+                <p class="p_announcements">Nam vel lectus tincidunt, rutrum nulla
+                    eu, ornare libero. Aliquam dictum
+                    accumsan porttitor...</p>
+            </div>
+            <hr>
+            <div>
+                <h5>Updated Privacy Policy</h5>
+                <p class="p_announcements">Phasellus efficitur nisi eget elit
+                    consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+            </div>
+        </article>
 
-    <div>
-      <label for="phone">Phone Number</label>
-      <input type="tel" name="phone" id="phone">
-    </div>
- 
-    <div>
-      <label for="password">Password</label>
-      <input type="password" id="password">
-    </div>
+        <h4>Trending</h4>
+        <article class="article_trending">
+            <div>
+                    <img class="icon-trending" src="IMG/bts-violet-logo-4k-bangtan-boys-violet-brickwall-bts-logo_024601.jpg" alt="bts-violet-logo-4k">
 
-    <div>
-      <label for="confirm-password">Confirm Password</label>
-      <input type="password" name="password" id="confirm-password">
-    </div>
+                <div class="container_nickname">
+                    <h5>@tegan</h5>
+                    <p>World Peace Builder</p>
+                </div>
+            </div>
+            <div>
+                    <img class="icon-trending" src="IMG/codigos de programaciónAzul.jpg" alt="codigos de programaciónAzul">
 
-  </fieldset>  
-  
-<button type="submit">Create Account</button>
-<hr class="hr-2">
-<p>Already have an account? <a href="">Log in</a></p>
-</form>
+                   <div class="container_nickname">
+                        <h5>@morgan</h5>
+                        <p>Super Cool Project</p>    
+                   </div>
+            </div>
+            <div>
+                    <img class="icon-trending" src="IMG/imagen de codigos de programación.jpg" alt="imagen de codigos de programación">
+                    <div class="container_nickname">
+                        <h5>@kendall</h5>
+                        <p>Life Changing App</p>
+                    </div>
+            </div>
+            <div>
+                    <img class="icon-trending" src="IMG/Lucas-Background-green.jpg" alt="Lucas-Background-green">
 
-    <script src="javaScriptPrueba2.js"></script>
+                    <div class="container_nickname">
+                        <h5>@alex</h5>
+                        <p>No Traffic Maker</p>
+                    </div>
+            </div>
+        </article>
+        
+    </aside>
+</div>
 </body>
 </html>
